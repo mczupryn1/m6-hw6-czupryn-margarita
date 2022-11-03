@@ -47,47 +47,47 @@ img {
 
 
 .flex-container {
-    background-color: pink;
     box-sizing: border-box;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
     margin: 10px;
     padding: 10px;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 .connect {
     background-color: #f6fcf6;
     box-sizing: border-box;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
     margin: 10px;
     padding: 10px;
-    width: 160px;
-    justify-content: flex-end;
+    max-width: 165px;
 }
 
 .about {
     background-color: #f6fcf6;
     box-sizing: border-box;
     display:flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
     margin: 10px;
     padding: 10px;
-    width: 400px;
-    align-items: flex-start
+    width: 75%;
 }
 
 footer {
     text-align: center;
     margin-top: auto;
+    font-size: large;
 }
